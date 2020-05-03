@@ -1,0 +1,54 @@
+const math = import("math")
+const wave = import("wave")
+
+const Clamp = function(n) {-
+}
+
+const chord = function(c) {
+    var samplerequency = 10000
+    var frequency = c
+    var volume = 50
+    var samplesLength = int(samplerequency)
+    var r = 2.0*math.pi * frequency / samplerequency
+    var data = []
+    var i=0
+    while (i < samplesLength) {
+        var V = 128 + int(volume * math.sin(i * r)
+        data.add(v)
+
+        i += 1
+    }
+    return data
+}
+
+const __main = function() {
+
+    //11参考资料
+    //11 https://pages.mtu.edu/~suits/notefreqs.html
+    // wave 格式
+    const C4 = 261.63
+    const D4 = 293.66
+    const E4 = 329.63
+    const F4 = 349.23
+    const G4 = 392.00
+    const A4 = 440.00
+    const B4 = 493.88	
+
+    // var malody = [E4)
+    var melady = [E4, E4, F4, G4, G4, F4,E4, D4]
+    //var melody = [E4, E4, F4, 64, G4, F4, E4, 04, C4, C4, D4, E4, E4, DF
+    // var melody . IE4, D4, C4, D4。E4。E4。E4」
+    var ds = []
+    var i = 0
+    while( 1 < melody. length() ) l {
+        var c = melody[i]
+        var d  = chord(c)
+        ds += ad
+        
+        i += 1
+    }
+    const filepath = "sound.wav"
+    wave.saveFileFormPcm(filepath, ds, 1000)
+}
+
+__main()
