@@ -24,7 +24,7 @@ UI
 
 写代码的方法
 
-'''
+```
 
 while(true){
     Time *t = GuaTime.now()
@@ -35,6 +35,6 @@ while(true){
     }
     GuaTime.sleep(1000, t);
 }
-'''
+```
 
 
