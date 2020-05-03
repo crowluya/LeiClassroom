@@ -9,16 +9,21 @@
 
 音频
 声音是一个数组
+
     PcmFromAudioDevice()
     PlayPcm()
 
 视频
+
     ScreenImage(x,y,w,h)
     WindowImage()
     WindowList()
+
 网络
+
     GuaNet.send()
     GuaNet.recv()
+
 UI
 
 
@@ -37,4 +42,9 @@ while(true){
 }
 ```
 
+# 怎样高效学习 C++ 语言
+
+1. 入门课
+2. 用c++重写入门
+3. 领域知识
 
