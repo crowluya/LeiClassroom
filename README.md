@@ -42,16 +42,18 @@ while(true){
 }
 ```
 
-# 怎样高效学习 C++ 语言
+## 怎样高效学习 C++ 语言
 
 1. 入门课
 2. 用c++重写入门
 3. 领域知识
 
-## vscode cpp 环境搭建
+### vscode cpp 环境搭建
 
 ```
 https://www.jianshu.com/p/090a6516d9e1
 
 ``
+
+## 声音的处理
 
